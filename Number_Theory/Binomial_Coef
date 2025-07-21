@@ -1,3 +1,7 @@
+ #include <vector>
+using namespace std;
+
+
 int getnCk(int n, int k, vector<vector<int>> & dp) {
   
     // k can not be grater then k so we
