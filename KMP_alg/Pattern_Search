@@ -15,11 +15,12 @@ void computeLPS (string &pat,vector<int> &LPS,int m){
                     len = LPS[len-1];
                 }
                 else{
-                    LPS[i] = 0;
+                    LPS[i] = 0; 
                     i++;
                 }
             }
         }
+        // if asked for whole array return LPS[m-1] which is the last element of LPS array
     }
 
 
