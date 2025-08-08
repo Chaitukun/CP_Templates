@@ -25,8 +25,8 @@ void computeLPS (string &pat,vector<int> &LPS,int m){
 
      vector<int> search(string &pat, string &txt) {
         // code here
-        int m = pat.length(); //j
-        int n = txt.length(); // i
+        int m = pat.length(); //j shorter word
+        int n = txt.length(); // i longer word
         
         vector<int>res;
         
