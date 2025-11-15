@@ -17,7 +17,7 @@ public:
 
     bool isBipartite(vector<vector<int>>& graph) {
         int v = graph.size();
-        vector<int>color(v,-1);
+        vector<int> color(v,-1);
 
 
         // checking for components 
